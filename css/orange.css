@@ -1,0 +1,20 @@
+.brand .logo:before{
+  border-top: 5px solid #fa5b0f;
+  border-left: 5px solid #fa5b0f;
+}
+.brand .logo:after{
+  border-bottom: 5px solid #fa5b0f;
+  border-right: 5px solid #fa5b0f;
+}
+body.dark .portfolio .portfolio-filter button.active, body.dark header .navber ul li a.active, body.dark header .navber ul li a:hover, header .navber ul li a.active, header .navber ul li a:hover, .portfolio .portfolio-filter .active,  .contact .contact-info-item .icon, .portfolio .portfolio-item-inner .portfolio-info .icon .fa, .portfolio .portfolio-filter .active, .service .service-item .service-item-inner .icon, button:hover, .about .about-content .about-text h3 span , span.text-type-js-color ,body.dark .personal-info.padd-15 p.info ,.personal-info.padd-15 p.info ,.count-icon i ,.prices-header h2 ,.prices-body h2 ,.brand .logo{
+  color: #fa5b0f;
+}
+header .navber ul li a.active:before, header .navber ul li a:hover:before, header .navber ul li a:before, .service .service-item .service-item-inner:hover .icon, .progress-in,.section-title h2:before, .section-title h2:after, .btn, .home .intro .social-links a ,.prices-header ,.prices-footer a ,#myBtn{
+  background: #fa5b0f;
+}
+body.dark .portfolio .portfolio-filter button.active, .portfolio .portfolio-filter .active ,.home .intro img{
+  border-color: #fa5b0f;
+}
+body.dark .prices-header h2 ,.prices-header h2{
+  border: 10px solid #f17033;
+}
