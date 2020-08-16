@@ -47,7 +47,7 @@ btn.addEventListener("click",function(){
 // text type 
 const typed = new Typed('.text', {
       
-  strings: ['Shakib Hosen', 'Web Design','Web Developer', '19 Year Old'], typeSpeed: 80,backSpeed: 80, backDelay: 1500, loop:
+  strings: ['Shakib Hosen', 'Web Designer','Web Developer', '19 Year Old'], typeSpeed: 80,backSpeed: 80, backDelay: 1500, loop:
   true,
   
   
