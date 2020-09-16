@@ -5,9 +5,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
   <title></title>
+  <script>
+
+  </script>
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <script src="js/jquery-3.5.1.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css" type="text/css" />
   <link rel="stylesheet" href="css/pink.css" type="text/css" />
@@ -23,7 +25,15 @@
   <!--style switcher css end-->
 </head>
 
-<body>
+<body onload="myfunctionload()">
+
+  <!--home loading section end-->
+   <div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+  </div>
+
+  <!--home loading section end-->
+
   <!--main container-->
   <div class="main-container">
     <!--nav bar-->
@@ -58,10 +68,10 @@
             <h2 class="text-center text-type"><span class="text-type-js-color">I'M</span> <span class="text"></span>
             </h2>
             <div class="social-links">
-              <a href="#"><i class="fa fa-facebook"></i></a>
-              <a href="#"><i class="fa fa-instagram"></i></a>
-              <a href="#"><i class="fa fa-twitter"></i></a>
-              <a href="#"><i class="fa fa-youtube"></i></a>
+              <a href="https://www.facebook.com/shakib.hossin.18"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.facebook.com/shakib.hossin.18"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.facebook.com/shakib.hossin.18"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.facebook.com/shakib.hossin.18"><i class="fa fa-youtube"></i></a>
             </div>
           </div>
         </div>
@@ -79,14 +89,11 @@
               <div class="row">
                 <div class="col-lg-6">
                   <div class="about-text col-md-12 padd-15">
-                    <h3>Shakib Hosen <br><span>Web Design & Web Developer</span></h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum quidem est repellat dicta odit
-                      vitae exercitationem eligendi vel odio labore? Porro ipsum sint laboriosam! Nihil! Lorem ipsum
-                      dolor sit amet, consectetur adipisicing elit. Officia adipisci iste nobis nostrum modi iusto!
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, suscipit!</p><br>
+                    <h3>Shakib Hosen <br><span>Web Designer &  WordPress Developer</span></h3>
+                    <p>Hi , i’am a Professional Web Designer And WordPress Developer. I have more than 3 years experience in Designing And WordPress Theme Customization. My Goal is to Provide you with excellent Quality services for the client satisfaction. My Expertise : <b>HTML</b>, <b>CSS</b>, <b>Bootstrap</b>, <b>JavaScript</b>, <b>Jquery</b>, <b>WordPress</b>, <b>PSD to HTML</b>, <b>PSD to WordPress</b>, <b>WordPress Theme Customization</b>, <b>Professional Web Design</b>, I am Really Enjoying to work with My all existing and new Client. Please Contact me. Thank you :)</p><br>
                     <div class="row">
                       <div class="buttons padd-15">
-                        <a class="btn" href="#">Download CV</a>
+                        <a class="btn" href="img/cv.png" download="">Download CV</a>
                       </div>
                     </div>
                   </div>
@@ -95,10 +102,10 @@
                   <div class="personal-info  padd-15">
                     <ul>
                       <li>
-                        <p class="info">Birthday : <span>20 December 2002</span></p>
+                        <p class="info">Birthday : <span>20 December 2001</span></p>
                       </li>
                       <li>
-                        <p class="info">Age : <span>18</span></p>
+                        <p class="info">Age : <span>19</span></p>
                       </li>
                       <li>
                         <p class="info">Email : <span>freelancershakib2020@gmail.com</span></p>
@@ -486,7 +493,7 @@
             <div class="section-title padd-15">
               <h2>Prices table </h2>
             </div>
-            <div class=" col-lg-4 col-md-6">
+            <div class=" col-lg-4 col-md-6 ">
               <div class="prices-table-box">
                 <div class="prices-header">
                   <h2>39$</h2>
@@ -503,7 +510,7 @@
                 </div>
               </div>
             </div>
-            <div class=" col-lg-4 col-md-6">
+            <div class=" col-lg-4 col-md-6 ">
               <div class="prices-table-box">
                 <div class="prices-header">
                   <h2>59$</h2>
@@ -520,7 +527,7 @@
                 </div>
               </div>
             </div>
-            <div class=" col-lg-4 col-md-6">
+            <div class=" col-lg-4 col-md-6 ">
               <div class="prices-table-box">
                 <div class="prices-header">
                   <h2>99$</h2>
@@ -585,12 +592,12 @@
                 <div class="row">
                   <div class="form-item col-md-6 padd-15">
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Name">
+                      <input type="text" id="username" class="form-control" placeholder="Name">
                     </div>
                   </div>
                   <div class="form-item col-md-6 padd-15">
                     <div class="form-group">
-                      <input type="eamil" class="form-control" placeholder="Email">
+                      <input type="eamil" id="email" class="form-control" placeholder="Email">
                     </div>
                   </div>
 
@@ -598,18 +605,21 @@
                 <div class="row">
                   <div class="form-item col-md-12 padd-15">
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Subject">
+                      <input type="text" id="subject" class="form-control" placeholder="Subject">
                     </div>
                   </div>
                 </div>
                 <div class="row">
                   <div class="form-item col-md-12 padd-15">
-                    <textarea class="form-control" placeholder="Your Message..."></textarea>
+                    <textarea class="form-control" id="message" placeholder="Your Message..."></textarea>
+                  </div>
+                  <div class="text-center">
+                    <div id="msgform" class="ml-4"></div><br>
                   </div>
                 </div>
                 <div class="row">
                   <div class="form-item col-12 padd-15">
-                    <button class="btn" type="submit">Send Message</button>
+                    <button class="btn" id="btn" type="submit">Send Message</button>
                   </div>
                 </div>
               </form>
@@ -666,18 +676,29 @@
 
 
   <!--style switcher div end-->
+
   <!--js file-->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!--text type-->
   <script src="js/typed.js"></script>
   <!--text type-->
   <script type="text/javaScript" src="js/active.js">
   </script>
   <!--color js-->
-  <script type="text/javascript" src="js/color.js">
-
-  </script>
+  <script type="text/javascript" src="js/color.js"></script>
   <!--color js end-->
+
+  <!--home loadin file link-->
+  <script>
+    var load = document.querySelector(".loader-wrapper");
+
+    function myfunctionload() {
+      load.style.display = "none";
+    }
+  </script>
+  <!--home loadin file link-->
   <!--js file end-->
+
 </body>
 
 </html>
